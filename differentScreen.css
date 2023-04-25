@@ -1,0 +1,120 @@
+
+@media (max-width: 575.98px) {
+  .Content_Top>div>h2{
+    line-height: 1.5rem;
+    width: 40ch;
+  }
+  .Content_Top img{
+    width: 60%;
+  }
+  .Content_Bottom h2{
+    font-size: 14px !important;
+  }
+  .Sign_btn{
+    width: 70% !important;
+}
+  }
+  
+
+  @media (max-width: 767.98px) {
+    .Content_Bottom h2{
+      font-size: 18px;
+    }
+    .Content_Bottom img{
+      min-width: 200px
+    }
+    .Content_Bottom_Wrapper{
+      text-align: center;
+      margin-bottom: 1em;
+    }
+    .Pricing_Heading p{
+      font-size: 16px;
+    }
+
+  }
+
+  
+
+  @media (max-width: 1000.98px) {
+    .Content_Top>div>h2{
+      font-size: 18px;
+    }
+    .Content_Bottom{
+      justify-content: center;
+    }
+    .Sign_btn{
+      width: 70vw;
+  }
+  #Main{
+    height: 90vh;
+  }
+  .Content_Top {
+    justify-content: flex-start;
+    padding-top: 3em;
+  }
+  .Middle_Contener{
+    width: 90%;
+  }
+  h1{
+    font-size: 32px;
+  }
+  .Top_Library p{ 
+    width: 90% !important;
+  }
+  .Other_Container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 90%;
+  }
+  #Slider_Btn , #Slider_Content,#Slider_Content>.p4{
+    text-align: center !important;
+  }
+  #Slider_Content .p2{
+    width: fit-content;
+  }
+  #Other_Section{
+    background-image: linear-gradient(90deg, rgba(0, 0, 0, 0.8) -57.5%, rgba(0, 0, 0, 0) 98.72%),url(images/sporstmobile.jpg);
+  }
+  .Pricing_1 {
+    flex-wrap: wrap;
+  }
+  #Pricing_list li{
+    flex-direction: column;
+  }
+  #Pricing_list li>div:first-child{
+    text-align: center;
+    padding-bottom: 1.5em;
+    width: 80%;
+  }
+  #Pricing_list li:first-child>div:first-child>p,#Pricing_list li:first-child>div:nth-child(2)>span{
+    font-weight: 800;
+  }
+  .Price_Btn{
+    padding: 0 2em;
+  }
+  .Main_Footer{
+    margin-left: 3em;
+  }
+  .ul-lists>ul{
+    height: 0;
+    display: none
+  }
+  #Footer_List{
+    flex-direction: column;
+    justify-content: flex-start;
+  }
+  .Last_ul{
+    gap: 5vw;
+  }
+  }
+  
+
+  @media (max-width: 1280px) {
+    .Catogories_Wrapper{
+        grid-template-columns: repeat(2,1fr);
+        max-width: 650px;
+        margin: 0 auto;
+    }
+  }
+  
